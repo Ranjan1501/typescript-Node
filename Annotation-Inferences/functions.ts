@@ -49,3 +49,24 @@ const logWheather = ({ date, wheather }: { date: Date, wheather: string; }) => {
 }
 
 logWheather(todayWheather); 
+
+// interfaces in function 
+
+interface Reportable{
+    summary(): string;
+}
+
+const oldCivic = {
+    name: "civic",
+    year: new Date(),
+    broken: false,
+    summary (): string {
+        return `Name is ${this.name} and year is ${this.year}`;
+    }
+}; 
+
+const printSummary = (item: Reportable):void => {
+    console.log(item.summary()); 
+}
+
+printSummary(oldCivic); 
