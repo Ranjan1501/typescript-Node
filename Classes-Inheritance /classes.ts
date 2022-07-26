@@ -36,4 +36,21 @@ class Car extends Vehicle {
 const car = new Car(4, "grey");
 car.startDrivingProcess(); 
 console.log(car.color); 
-console.log(car.wheels)
+console.log( car.wheels );
+
+// class Base {
+//     k:number= 40004040 ; 
+// }
+
+// class Derived extends Base {
+//     constructor () {
+//         console.log("Before Super"); 
+//         // console.log(this.k); 
+
+//         super(); 
+//         console.log( this.k ); 
+//         console.log("After Super"); 
+//     }
+//         // console.log("After Base"); 
+
+// }
