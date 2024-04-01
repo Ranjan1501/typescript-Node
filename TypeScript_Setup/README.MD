@@ -41,7 +41,7 @@ It do the same job compile the code and execute in a very fast fashion
 Once you have ts-node configured in your codebase, you don’t need dist folder at it will do the same job under the hood without creating extra build code. 
 
 
-## Note - If you want to use ES module import and export with ts-node to execute the file such as index.ts;
+## Note - If you want to use ES module import and export with ts-node and to execute the main i.e., index.ts Follow below steps. 
 Add following configuration tsconfig.json
 Module: “CommonJS”
  "allowSyntheticDefaultImports": true
